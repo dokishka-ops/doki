@@ -16,7 +16,7 @@ const translations = {
     lastUpdated: "LAST UPDATED / 2026.09.11"
   },
   en: {
-    displayName: "USHIMITSU DOKI",
+    displayName: "Ushimitsu Doki",
     reading: "",
     avatarBubble: "I fell into Yuri!!! on ICE after the July 2026 marathon stream!",
     lead: "Viktuuri only — fixed top/bottom! 💙💜<br>I mostly draw devoted, perfect-boyfriend Viktor × cute Yuuri who adores Viktor and is effortlessly sexy without even realizing it. Basically, lots and lots of my favorite kind of Viktuuri 🥰",
@@ -29,7 +29,7 @@ const translations = {
     pixivDescription: "A collection of my X art",
     poipikuTitle: "poipiku",
     poipikuDescription: "NSFW works",
-    lastUpdated: "LAST UPDATED / 2026.09.11"
+    lastUpdated: "LAST UPDATED / 2026.09.14"
   }
 };
 
@@ -42,7 +42,7 @@ function setLanguage(language) {
     if (copy !== undefined) node.innerHTML = copy;
   });
   document.documentElement.lang = language;
-  document.title = language === "ja" ? "丑満 どき" : "Dokishka — YOI fan creator";
+  document.title = language === "ja" ? "丑満 どき" : "USHIMITSU DOKI";
   buttons.forEach((button) => {
     const active = button.dataset.lang === language;
     button.classList.toggle("is-active", active);
