@@ -13,7 +13,7 @@ const translations = {
     pixivDescription: "X絵のまとめ",
     poipikuTitle: "ぽいぴく",
     poipikuDescription: "すけべなやつ",
-    lastUpdated: "LAST UPDATED / 2026.09.11"
+    lastUpdated: "LAST UPDATED / 2026.10.02"
   },
   en: {
     displayName: "Ushimitsu Doki",
@@ -29,7 +29,7 @@ const translations = {
     pixivDescription: "A collection of my X art",
     poipikuTitle: "poipiku",
     poipikuDescription: "NSFW works",
-    lastUpdated: "LAST UPDATED / 2026.09.14"
+    lastUpdated: "LAST UPDATED / 2026.10.02"
   }
 };
 
