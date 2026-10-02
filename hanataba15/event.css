@@ -9,6 +9,8 @@ button,a{-webkit-tap-highlight-color:transparent}button{font:inherit}[hidden]{di
 .masthead{display:flex;justify-content:space-between;gap:16px;padding-bottom:18px;border-bottom:1px solid #9687b02e;font-size:11px;letter-spacing:.16em;font-weight:600;color:#605a76}
 .intro{padding:54px 0 36px;text-align:center}
 .masthead span:first-child{flex-shrink:0}.masthead span:last-child{text-align:right;letter-spacing:.06em;overflow-wrap:anywhere}
+.masthead{align-items:center}.brand-logo{display:block;width:180px;height:auto;max-width:100%}
+@media(max-width:480px){.brand-logo{width:130px}}
 .anniversary{display:flex;justify-content:center;align-items:center;gap:18px;margin:0 0 28px;color:#78649c;font:italic 18px Georgia,"Times New Roman",serif}
 .anniversary::before,.anniversary::after{content:"";width:44px;height:1px;background:linear-gradient(90deg,transparent,#9c88ba)}
 .anniversary::after{transform:rotate(180deg)}
