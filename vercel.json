@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/hanataba15/",
+      "destination": "https://witching-hour-hanataba15.netlify.app/hanataba15/",
+      "permanent": false
+    },
+    {
       "source": "/hanataba15/:path*",
       "destination": "https://witching-hour-hanataba15.netlify.app/hanataba15/",
       "permanent": false
